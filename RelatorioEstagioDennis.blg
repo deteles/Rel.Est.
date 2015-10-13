@@ -1,7 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: RelatorioEstagioDennis.aux
 A level-1 auxiliary file: abntex2-modelo-include-comandos.aux
+A level-1 auxiliary file: Arquitetura.aux
+A level-1 auxiliary file: Construcao_do_hardware.aux
 I couldn't open database file abntex2-modelo-references.bib
----line 99 of file RelatorioEstagioDennis.aux
+---line 102 of file RelatorioEstagioDennis.aux
  : \bibdata{abntex2-options,abntex2-modelo-references
  :                                                   }
 I'm skipping whatever remains of this command

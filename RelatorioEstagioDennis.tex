@@ -62,6 +62,8 @@
 
 \usepackage{afterpage}			% Pacote utilizado para colocar referencia de figura na mesma páginad a figura
 
+\usepackage{float}
+
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -430,7 +432,7 @@ contribuirão para a evolução do \abnTeX.
 	
 	A arquitetura do sistema é composta por: um controlador geral, um banco de registradores e módulos de periféricos. O controlador é responsável pelo gerenciamento do sistema e é acessado diretamente pelo codec SpaceWire e pela comunicação serial. O banco de registradores permite o armazenamento de dados e informações de comando para os módulos. Os módulos de periféricos acessam o banco de registradores e controlam os dispositivos externos (leds, entradas e saídas digitais e conversores). O acesso aos conversores é feito através do protocolo de comunicação serial SPI.
 	
-	Este projeto foi implementado em uma placa de desenvolvimento que contém uma FPGA Xilinx Virtex 5 utilizando programação VHDL. Também foi construído um hardware contendo entradas e saídas digitais, leds e conversores analógico digital e digital-analógico de dois canais, os quais podem ser conectados a equipamentos como sensor de temperatura e motores de acionamento.
+	Este projeto foi implementado em uma placa de desenvolvimento que contém uma FPGA Xilinx Virtex 5 utilizando programação VHDL. Também foi construído um hardware contendo: entradas e saídas digitais, leds e conversores analógico digital e digital-analógico de dois canais, os quais podem ser conectados a equipamentos como sensor de temperatura e motores de acionamento.
 	
 	O sistema desenvolvido pode se comunicar a uma rede SpaceWire e todos os dispositivos do hardware possuem acessos através desta comunicação mostrando assim um dos principais benefícios deste protocolo que é promover compatibilidade entre equipamentos e subsistemas.
 
@@ -564,81 +566,17 @@ contribuirão para a evolução do \abnTeX.
 % ---
 % Capitulo da Apresentação da Empresa - Sobre o NSEE
 % ---
-\chapter{Local da realização das atividades}
-As atividades realizadas durante o período do estágio foram feitas no Núcleo de Sistemas Eletrônicos Embarcados (NSEE), laboratório localizado no Instituto Mauá de Tecnologia (IMT). Este capítulo terá uma breve descrição sobre o NSEE e o IMT.
-% ---
-
-\section{O Instituto Mauá de Tecnologia (IMT)}
-Fundado em 11 de dezembro de 1961, o Instituto Mauá de Tecnologia (IMT) é uma entidade privada, sem fins lucrativos, e dedicada ao ensino e à pesquisa científica e tecnológica, com a finalidade de formar recursos humanos altamente qualificados para a contribuição do desenvolvimento do País.(\uppercase{Instituto...}, S/Data) \let\thefootnote\relax\footnotetext{\uppercase{Instituto} Mauá de Tecnologia. Disponível em:  \url{http://www.institutodeengenharia.org.br/site/universidades/detalhes/id\_sessao/66/id\_universidade/4/Instituto-Mauá-de-Tecnologia}. Acesso em: 8 out. 2015.}
-
-O IMT, com campi em São Paulo e São Caetano do Sul (Figura \ref{IMT}), mantém duas unidades: Centro Universitário e Centro de Pesquisas. O Centro Universitário oferece cursos de graduação em Administração, Design e Engenharia. Na pós-graduação, são oferecidos cursos de aperfeiçoamento, especialização e MBA nas áreas de Administração, Gestão e Engenharia e é desenvolvido programa de Mestrado em processos químicos e bioquímicos. O Centro de Pesquisas, há mais de 45 anos, desenvolve tecnologia para atendimento das necessidades da indústria.(\uppercase{Alunos...}, 2015) \let\thefootnote\relax\footnotetext{\uppercase{Alunos} do Instituto Mauá de Tecnologia iniciam construção de satélite em miniatura para pesquisas espaciais. Disponível em: \url{http://maua.br/imprensa/press-releases/528-alunos-do-imt-iniciam-construcao-de-satelite-em-miniatura-para-pesquisas-espaciais}. Acesso em: 7 out. 2015.}
-
-\let\thefootnote\svthefootnote
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale = 1]{Imagens/Campus_IMT_foto_aerea.jpg}
-	\caption{Vista aérea do \textit{Campus} do IMT de São Caetano do Sul.}
-	\label{IMT}
-\end{figure}
-
-% ---
-
-% ---
-\section{O Núcleo de Sistemas Eletrônicos Embarcados (NSEE)}
-Para saber um pouco mais sobre o novo laboratório Núcleo de Sistemas Eletrônicos Embarcados (NSEE), antes de tudo é preciso entender que sistemas embarcados são uma classe de sistemas digitais voltados e desenvolvidos para aplicações específicas, apresentando, frequentemente, restrições de processamento em tempo real. Apesar da complexidade do tema, esse tipo de tecnologia já faz parte de objetos do nosso cotidiano, como GPS e telefones celulares e vem sendo cada dia mais utilizada nas áreas automotiva, espacial, industrial e de entretenimento.
-
-Criado no início do ano de 2010, o Núcleo coordenado pelo professor Vanderlei Cunha Parro, além de ter como objetivo o estudo e o desenvolvimento desse tipo de sistema, também possui outros temas de interesse, como aplicações em processamento de sinais, controle digital e experimentos aeroespaciais.(\uppercase{Campus...}, 2010) \let\thefootnote\relax\footnotetext{\uppercase{Campus} de São Caetano do Sul tem novo laboratório de Sistemas Eletrônicos Embarcados. Disponível em:  \url{http://maua.br/imprensa/infomaua/29/texto/147}. Acesso em: 7 out. 2015.}
-
-
-
-% ---
+\include{Capitulo_Local_Atividades}
 
 % ---
 % Capitulo da Apresentação da Empresa - O CITAR
 % ---
-\chapter{O projeto CITAR (Circuitos Integrados Tolerantes à Radiação)}
-O projeto desenvolvido durante o estágio está no plano da Meta 2 do projeto CITAR. Uma breve descrição sobre o CITAR será apresentada a seguir.
-
-% ---
-\section{Sobre o CITAR}
-O Centro de Tecnologia da Informação Renato Archer - CTI, inaugurou o Projeto CITAR – Circuitos Integrados Tolerantes à Radiação, no dia 15 de julho de 2013 nas instalações do BBP - Brazilian Business Park, um espaço que abriga o Centro de Inovação da cidade de Atibaia - SP. A cerimônia (Figura \ref{Cerimonia}) contou com a presença do Ministro da Ciência, Tecnologia e Inovação Marco Antonio Raupp, além de outras autoridades.
-
-O Projeto CITAR, conta com financiamento da Agência Brasileira de Inovação - FINEP e é executado em um esforço de cooperação entre o CTI Renato Archer e outras instituições de pesquisa e ensino: o Instituto Nacional de Pesquisas Espaciais (INPE), a Agência Espacial Brasileira (AEB), o Instituto de Física da USP (IFUSP) e o Instituto de Estudos Avançados (IEAv).
-Trata-se da primeira ação multinstitucional brasileira para o desenvolvimento de circuitos integrados tolerantes à radiação, destinados a aplicações em satélites científicos, que colocará Atibaia no mapa da produção e desenvolvimento de tecnologia aeroespacial brasileira.
-
-Com um orçamento de R\$ 20 milhões provenientes da FINEP, o projeto CITAR term a duração total de 24 meses e conta com a participação de uma equipe multiprofissional formada por mais de 40 pessoas. Os recursos são utilizados na contratação da equipe de desenvolvimento, capacitação e treinamento de profissionais, aquisição de equipamentos para infraestrutura de projetos e testes e na fabricação e qualificação de componentes. Para o diretor do CTI Renato Archer, Victor Pellegrini Mammana, o projeto é um grande passo para as instituições partícipes e para toda a produção tecnológica brasileira.
-
-Toda essa iniciativa conta com pleno apoio do Governo Federal, na figura do Ministério da Ciência, Tecnologia e Inovação (MCTI), do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e do Programa CI Brasil.
-
-O maior objetivo do Projeto CITAR é consolidar, no Brasil, a competência para a realização do ciclo completo de desenvolvimento compreendo as etapas de especificação, projeto, simulação, layout, envio para fabricação, encapsulamento, teste e qualificação de Circuitos Integrados tolerantes a radiações, para aplicações aeroespaciais e afins. As atividades serão focadas no desenvolvimento de CI's demandados pelo programa espacial brasileiro, indicados pelo INPE. (\uppercase{Cenpra}, 2013)\let\thefootnote\relax\footnotetext{Este texto foi retirado da URL \url{http://www.cenpra.gov.br/ultimas-noticias/264-cti-renato-archer-inaugura-projeto-de-tecnologia-espacial-na-cidade-de-atibaia-sp}. Acesso em: 7 out. 2015.}
-% ---
-
-
-
-\vfill
-\begin{figure}[!htb]
-	\centering
-	\caption{Cerimonônia de inauguração do projeto CITAR.}
-	\includegraphics[scale = 0.5]{imagens/inauguracaoCTI.jpg}
-	
-	Fonte: site do CTI Centro de Tecnologia da Informação Renato Archer.\footnotemark[1]
-	
-	\label{Cerimonia}
-\end{figure}
-\vfill
-
-\let\thefootnote\relax\footnotetext[1]{Figura retirada da URL \url{http://www.cti.gov.br/dtsd/gesiti/75-semana-nacional-de-ciencia-e-tecnologia-2014-saiu-na-midia/259-ministro-da-ciencia-tecnologia-e-inovacao-participa-de-inauguracao-de-projeto-de-tecnologia-espacial}. Acesso em: 7 out. 2015}
-
-
-
- % fim \afterpage
-
+\include{Capitulo_O_Projeto_CITAR}
 
 % ---
 % Capitulo com exemplos de comandos inseridos de arquivo externo 
 % ---
-\include{abntex2-modelo-include-comandos}
+%\include{abntex2-modelo-include-comandos}
 % ---
 
 % ----------------------------------------------------------
@@ -647,90 +585,10 @@ O maior objetivo do Projeto CITAR é consolidar, no Brasil, a competência para 
 \part{Descrição das atividades}
 % ----------------------------------------------------------
 
-\chapter{Descrição das atividades desenvolvidas no estágio}
 % ---
-Neste capítulo são descritas, de modo detalhado, todas as atividades desenvolvidas pelo aluno Dennis Teles dos Santos durante o período de estágio pelo programa de Iniciação Científica ligado ao projeto CITAR no âmbito da meta 2, realizado no laboratório NSEE do Instituto Mauá de Tecnologia.
-
+% Capitulo : Descrição das atividades desenvolvidas no estágio
 % ---
-\section{Introdução}
-Durante o período de estágio, o aluno participou do programa de Iniciação Científica financiado pelo CNPq, sob orientação do professor Vanderlei Cunha Parro e da coorientação do Engenheiro Rafael Corsi Ferrão formado pela Mauá no ano de 2011.
-
-Para a realização e conclusão do projeto o aluno desempenhou as seguintes atividades: Construção de um hardware, firmware e software.
-% ---
-
-% ---
-\section{Objetivo}
-
-O projeto está no âmbito da meta 2 do projeto CITAR (ver figura \ref{Meta2}) e tem como objetivo desenvolver um hardware de uso de bancada capaz de ler e escrever em conversores A/D e D/A e em saídas e entradas digitais. O dispositivo será conectado em um nó SpaceWire (protocolo de comunicação aeroespacial amplamente utilizado). A arquitetura proposta do projeto pode ser visualizada na figura \ref{ArchSpW}.
-
-\afterpage{	% \afterpage
-\begin{figure}[!htb]
-	\centering
-	\caption{Projeto CITAR - Meta 2.}
-	\includegraphics[scale = 0.55]{Imagens/ProjetoCitarMeta2}
-	
-	Fonte: site do IEAV Instituto de Estudos Avançados (2010, p. 9).\footnotemark[2]
-	
-	\label{Meta2}
-\end{figure}
-
-\let\thefootnote\relax\footnotetext[2]{Figura retirada da URL \url{http://www.ieav.cta.br/peice2010/Apresentacoes\_PEICE\%202010\_pdf/2010-11-29/0102-Saulo.pdf}. Acesso em: 7 out. 2015.}
-
-\vfill
-
-\begin{figure}[!htb]
-	\centering
-	\caption{Projeto CITAR - Meta 2.}
-	\includegraphics[scale = 1.7]{Imagens/Arch_ApSpW}
-	
-	Fonte: Elaborada pelo autor.
-	
-	\label{ArchSpW}
-\end{figure}
-
-}			% fim \afterpage
-% ---
-
-% ---
-\section{Materiais e métodos}
-Para o desenvolvimento do projeto foi utilizado:
-
-\begin{itemize}
-	\item Computador
-	\item Software Xilinx ISE
-	\item Placa de prototipagem GR-PCI-XC5V
-	\item Cabo SpaceWire
-\end{itemize}
-
-Inicialmente foi realizado um estudo sobre as propriedades do protocolo SpaceWire. Em seguida, foram criados algumas aplicações utilizando o protocolo para melhor compreensão. Depois foi projetado a arquitetura proposta (Figura \ref{ArchSpW}) que possibilita o acesso aos conversores via protocolo SpW. Para todos os subsistemas um cenário de testes foi projetado, garantindo o perfeito funcionamento do sistema.
-
-% ---
-
-
-% ---
-\section{Estudos, testes e simulações do codec SpaceWire}
-\let\thefootnote\svthefootnote
-O primeiro passo escolhido foi estudar sobre o protocolo de comunicação SpaceWire. Verificar seu funcionamento, os dados de entrada e de saída, a estrutura necessária para a sua aplicação, entre outros. O estudo se baseou inicialmente através da leitura do documento \textit{Space engineering: SpaceWire – Links, nodes, routers and networks}\footnote{Space engineering: SpaceWire – Links, nodes, routers and networks \url{http://www.ecss.nl/forums/ecss/_templates/default.htm?target=http://www.ecss.nl/forums/ecss/dispatch.cgi/standards/docProfile/100302/d20060808084754/No/t100302.htm}}, o qual descreve detalhadamente como devem ser construídos todos os níveis para sua implementação (nível das camadas física, de sinal, de caracteres, de pacotes de dados etc.). Procurou-se através deste estudo ter uma visão geral do protocolo, lembrando que o foco é a sua utilização e não a construção do mesmo.
-
-O codec SpaceWire utilizado para estudo de teste e simulação foi desenvolvido por Jorge Luiz Nabarrete em seu trabalho de pós-doutorado no Instituto Mauá de Tecnologia em 2012.
-
-Um dos primeiros testes com o codec foi verificar seu funcionamento ligando a saída do mesmo em sua entrada (loopback test). A simulação pôde ser visualizada através do software ISim (ISE Simulator) da Xilinx. Foram observadas várias características deste protocolo através desta simulação, entre elas, a taxa de envio de dados no início da transmissão e a alta prioridade no envio de TimeCode como está indicado na Figura \ref{SimulSpW_1}.
-
-\begin{figure}[!htb]
-	\centering
-	\caption{Simulação codec SpW com interligação da saída com a entrada.}
-	\includegraphics[scale = 0.7, angle = 90]{Imagens/SimulSpW_1}
-	
-	Fonte: Elaborada pelo autor.
-	
-	\label{SimulSpW_1}
-\end{figure}
-
-Outro teste realizado foi conectar o codec SpW que eu estava analisando com o codec SpW que o coorientador Rafael Corsi Ferrão estava utilizando em seu projeto com a placa de desenvolvimento \textit{Altera DE4 Development and Education Board}\footnote{Altera DE4 Development and Education Board \url{http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English\&CategoryNo=138\&No=\\501\&PartNo=1}}. Vale lembrar que os codecs SpW são de desenvolvedores diferentes. Após configurar a frequência de transmissão, vimos que os codecs se comunicavam corretamente.
-
-Através da leitura, dos testes e simulações conseguiu-se criar uma boa base para o uso do protocolo SpaceWire e com isso dar prosseguimento no projeto.
-
-% ---
+\include{Capitulo_Descricao_Atividades}
 
 % ----------------------------------------------------------
 % PARTE
@@ -857,6 +715,8 @@ parturient montes nascetur ridiculus mus}
 \lipsum[32]
 
 \end{anexosenv}
+
+\include{Assinaturas}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
