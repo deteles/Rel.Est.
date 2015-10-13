@@ -64,6 +64,8 @@
 
 \usepackage{float}
 
+\usepackage{pdfpages}
+
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -270,13 +272,13 @@
 	\imprimirdata.}\\
 	
 	\hspace{0.5cm}
-		1. Palavra-chave1.
-		2. Palavra-chave2.
-		2. Palavra-chave3.
-		I. Orientador.
-		II. Universidade xxx.
-		III. Faculdade de xxx.
-		IV. Título 			
+		1. Aplicação SpaceWire. % Palavra-chave1.
+		2. Comunicação aeroespacial. % Palavra-chave2.
+		2. Conversores. % Palavra-chave3.
+		I. Vanderlei Cunha Parro, % Orientador.
+		II. Instituto Mauá de Tecnologia % Universidade xxx.
+		III. Faculdade de Engenharia Eletrônica. % Faculdade de xxx.
+		IV. Aplicação SpaceWire. % Título 			
 	\end{minipage}}
 	\end{center}
 \end{fichacatalografica}
@@ -593,31 +595,13 @@ contribuirão para a evolução do \abnTeX.
 % ----------------------------------------------------------
 % PARTE
 % ----------------------------------------------------------
-\part{Resultados}
+\part{Considerações finais}
 % ----------------------------------------------------------
 
 % ---
-% primeiro capitulo de Resultados
+% Capitulo : Atividades a realizar
 % ---
-\chapter{Lectus lobortis condimentum}
-% ---
-
-% ---
-\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia Curae}
-% ---
-
-\lipsum[21-22]
-
-% ---
-% segundo capitulo de Resultados
-% ---
-\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum
-elementum}
-% ---
-
-% ---
-\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
+\chapter{Atividades a realizar}
 % ---
 
 \lipsum[24]
@@ -669,20 +653,17 @@ elementum}
 \partapendices
 
 % ----------------------------------------------------------
-\chapter{Quisque libero justo}
+\chapter{Diagrama esquemático da Placa Filha}
 % ----------------------------------------------------------
 
-\lipsum[50]
+Na próxima página é anexado o diagrama esquemático da Placa Filha. Para projetá-lo foi utilizado o programa EAGLE PCB Design Software.
 
-% ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
-% ----------------------------------------------------------
-\lipsum[55-57]
+\includepdf[pages={1}]{Imagens/PlacaFilha_schematic.pdf}
 
 \end{apendicesenv}
 % ---
 
+\iffalse
 
 % ----------------------------------------------------------
 % Anexos
@@ -716,7 +697,7 @@ parturient montes nascetur ridiculus mus}
 
 \end{anexosenv}
 
-\include{Assinaturas}
+\fi
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
@@ -724,5 +705,7 @@ parturient montes nascetur ridiculus mus}
 \phantompart
 \printindex
 %---------------------------------------------------------------------
+
+\include{Assinaturas}
 
 \end{document}

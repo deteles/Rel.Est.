@@ -22,16 +22,12 @@
 \contentsline {section}{\numberline {3.5}Arquitetura do sistema}{23}{section.3.5}
 \contentsline {section}{\numberline {3.6}Constru\IeC {\c c}\IeC {\~a}o do hardware (Placa Filha)}{25}{section.3.6}
 \contentsline {section}{\numberline {3.7}Implementa\IeC {\c c}\IeC {\~a}o, simula\IeC {\c c}\IeC {\~a}o e teste do m\IeC {\'o}dulo digital-anal\IeC {\'o}gico com o conversor D/A MCP4922}{28}{section.3.7}
-\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Resultados}}{31}{part.3}
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es finais}}{33}{part.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Lectus lobortis condimentum}}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}{33}{section.4.1}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Pellentesque sit amet pede ac sem eleifend consectetuer}{35}{section.5.1}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Atividades a realizar}}{35}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{37}{chapter.6}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~a}o}}{37}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.11}
@@ -42,25 +38,6 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Quisque libero justo}}{43}{appendix.A}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Diagrama esquem\IeC {\'a}tico da Placa Filha}}{43}{appendix.A}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{45}{appendix.B}
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{47}{section*.13}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Morbi ultrices rutrum lorem.}}{49}{appendix.anexochapback.1}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{51}{appendix.anexochapback.2}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Fusce facilisis lacinia dui}}{53}{appendix.anexochapback.3}
+\vspace {\cftbeforechapterskip }

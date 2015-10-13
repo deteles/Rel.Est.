@@ -135,7 +135,7 @@ Os conversores utilizados no projeto são: o analógico-digital MCP3204\footnote
 
 Foi construído um hardware, chamado Placa Filha (figura \ref{PlacaFilha}), contendo: oito leds, seis entradas/saídas digitais, um coversor A/D MCP3204 e um convesor D/A MCP4922. Esta placa foi projetada com o intuito de ser conectada a placa de desenvolvimento GR-PCI-XC5V através de uma placa expansora de pinos GR-CPCI-TEST da Aeroflex Gaisler (figura \ref{cpci-test} e figura \ref{PlacaFilha_GRPCI}).
 
-A placa foi projetada utilizando o programa EAGLE PCB Design Software\footnote{Informações sobre o CadSoft EAGLE: \url{http://www.cadsoftusa.com/eagle-pcb-design-software/about-eagle/}. Acesso em 12 out. 2015.} e confeccionada em uma máquina LPKF disponibilizada pelo Instituto Mauá de Tecnologia.
+A placa foi projetada utilizando o programa EAGLE PCB Design Software\footnote{Informações sobre o CadSoft EAGLE: \url{http://www.cadsoftusa.com/eagle-pcb-design-software/about-eagle/}. Acesso em 12 out. 2015.} e confeccionada em uma máquina LPKF disponibilizada pelo Instituto Mauá de Tecnologia. O diagrama esquemático da placa está em anexo no Apêndice A no final do relatório.
 
 Esta placa permite que testes práticos possam ser realizados e mostrar o real funcionamento do sistema.
 
@@ -175,11 +175,13 @@ Esta placa permite que testes práticos possam ser realizados e mostrar o real f
 
 Através da Placa Filha pôde-se finalmente realizar testes com os conversores. Mas antes disso, é necessário fazer a implementação dos módulos e realizar simulações em software antes de efetivamente executá-los na prática. É muito importante o uso da simulação em software, pois se o subsistema não funcionar na simulação, muito provavelmente não funcionará na prática.
 
-Para a implementação do módulo digital-analógico através da programação em VHDL, construi-se, primeiramente, um diagrama de blocos do controlador do módulo para melhor compreensão e organização da estrutura do código. Este diagrama é mostrado na figura \ref{controlador_DAC}. Foi utilizado como referência para a contrução do diagrama a máquina de Moore onde as saídas são determinadas pelo estado corrente apenas (e não pela entrada). 
+Para a implementação do módulo digital-analógico através da programação em VHDL, construiu-se, primeiramente, um diagrama de blocos do controlador do módulo para melhor compreensão e organização da estrutura do código. Este diagrama é mostrado na figura \ref{controlador_DAC}. Foi utilizado como referência para a construção do diagrama a máquina de Moore onde as saídas são determinadas pelo estado corrente apenas (e não pela entrada). 
 
-O controlador do módulo D/A controla os sinais do módulo SPI que é por onde os dados são enviados e recebidos do conversor. Inicialmente o controlador espera chegar um dado novo no registrador para começar o processo de envio do dado ao canal do conversor requisitado. Após iniciado o processo de envio do dado, o mesmo entra em um novo estado de espera até que o último bit seja enviado. Logo depois, o controlador verifica se há um dado a ser enviado ao outro canal do conversor, evitando com que um canal tenha maior prioridade.
+O controlador do módulo D/A controla os sinais do módulo SPI que é por onde os dados são enviados e recebidos do conversor. Inicialmente o controlador espera chegar um dado novo no registrador para começar o processo de envio ao canal especificado do conversor. Após iniciado o processo de envio do dado, o mesmo entra em um novo estado de espera até que o último bit seja enviado. Logo depois, o controlador verifica se há um dado a ser enviado ao outro canal do conversor, evitando assim com que um canal tenha maior prioridade do que o outro.
 
-Foi realizado um teste na prática para ver este sistema funcionando. Neste teste estava sendo utilizado: o banco de registradores, o módulo A/D e o conversor A/D MCP4922. O registrador ficava recebendo dados em um endereço específico e enquanto isso o controlador do módulo verificava se havia um dado novo a ser enviado ao D/A. Toda vez que um dado era escrito no registrador, o controlador enviava este dado via SPI para o conversor MCP4922. O sinal analógico do conversor pôde ser observado através de um osciloscópio. A foto do teste realizado pode ser visualizada na figura \ref{teste_conversor_DAC}.
+Após a implementação em código VHDL, realizou-se a simulação deste sistema através do software ISim (ISE Simulator) da Xilinx, mostrado na figura \ref{ISim_DAC}. Pode-se observar que quando o dado a ser enviado chega por completo ao registrador nos endereços 30, 31 e 32, o controlador manda este dado para o SPI, que por sua vez envia o dado ao conversor MCP4922 através do sinal spi\_mosi\_o. O pacote de dados completo é composto por quatro bits de configuração do conversor (quatro bits menos significativos do endereço 30), quatro bits mais significativos de dados (quatro bits menos significativos do endereço 32) e mais oito bits de dados restantes (endereço 31). O comando de escrita necessário para o conversor MCP4922 é mostrado na figura \ref{WriteCommandMCP4922}.
+
+Por fim, foi realizado um teste na prática para ver este sistema funcionando. Neste teste estava sendo utilizado: o banco de registradores, o módulo A/D e o conversor A/D MCP4922. O registrador ficava recebendo dados em um endereço específico e enquanto isso o controlador do módulo verificava se havia um dado novo a ser enviado ao D/A. Toda vez que um dado era escrito no registrador, o controlador enviava este dado via SPI para o conversor MCP4922. O sinal analógico do conversor pôde ser observado através de um osciloscópio. A foto do teste realizado na prática pode ser visualizada na figura \ref{teste_conversor_DAC}.
 
 \begin{figure}[!htb]
 	\centering
@@ -193,7 +195,27 @@ Foi realizado um teste na prática para ver este sistema funcionando. Neste test
 
 \begin{figure}[!htb]
 	\centering
-	\caption{Diagrama de blocos do controlador do módulo digital-analógico.}
+	\caption{Simulação do módulo digital-analógico utilizando o software ISim.}
+	\includegraphics[scale = .8, angle = 90]{Imagens/ISim_DAC_.pdf}
+	
+	Fonte: Elaborada pelo autor.
+	
+	\label{ISim_DAC}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Comando de escrita para o conversor MCP4922.}
+	\includegraphics[scale = .5]{Imagens/WriteCommandMCP4922}
+	
+	Fonte: Elaborada pelo autor.
+	
+	\label{WriteCommandMCP4922}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\caption{Teste prático do controlador D/A MCP4922 utilizando osciloscópio.}
 	\includegraphics[scale = .7, angle = 90]{Imagens/teste_conversor_DAC}
 	
 	Fonte: Elaborada pelo autor.
