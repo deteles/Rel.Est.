@@ -3,7 +3,7 @@ A level-1 auxiliary file: Capitulo_Local_Atividades.aux
 A level-1 auxiliary file: Capitulo_O_Projeto_CITAR.aux
 A level-1 auxiliary file: Capitulo_Descricao_Atividades.aux
 I couldn't open database file abntex2-modelo-references.bib
----line 81 of file RelatorioEstagioDennis.aux
+---line 74 of file RelatorioEstagioDennis.aux
  : \bibdata{abntex2-options,abntex2-modelo-references
  :                                                   }
 I'm skipping whatever remains of this command
