@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.20)  14 OCT 2015 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.20)  15 OCT 2015 15:24
 entering extended mode
 **RelatorioEstagioDennis.tex
 (RelatorioEstagioDennis.tex
@@ -971,34 +971,34 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
 )
-Package color Info: Redefining color blue on input line 171.
-Package hyperref Info: Option `colorlinks' set `true' on input line 188.
+Package color Info: Redefining color blue on input line 172.
+Package hyperref Info: Option `colorlinks' set `true' on input line 189.
 \RelatorioEstagioDennis@idxfile=\write4
 
 Writing index file RelatorioEstagioDennis.idx 
 (RelatorioEstagioDennis.aux (Capitulo_Local_Atividades.aux)
 (Capitulo_O_Projeto_CITAR.aux) (Capitulo_Descricao_Atividades.aux)
 (Assinaturas.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 212.
-LaTeX Font Info:    ... okay on input line 212.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 212.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 213.
+LaTeX Font Info:    ... okay on input line 213.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 213.
  ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 212.
+Package hyperref Info: Link coloring ON on input line 213.
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1010,18 +1010,18 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 212.
-LaTeX Info: Redefining \ref on input line 212.
-LaTeX Info: Redefining \pageref on input line 212.
-LaTeX Info: Redefining \nameref on input line 212.
-LaTeX Info: Redefining \degres on input line 212.
-LaTeX Info: Redefining \dots on input line 212.
-LaTeX Info: Redefining \up on input line 212.
+LaTeX Info: Redefining \nameref on input line 213.
+LaTeX Info: Redefining \ref on input line 213.
+LaTeX Info: Redefining \pageref on input line 213.
+LaTeX Info: Redefining \nameref on input line 213.
+LaTeX Info: Redefining \degres on input line 213.
+LaTeX Info: Redefining \dots on input line 213.
+LaTeX Info: Redefining \up on input line 213.
 \myptabbox=\box37
 \myptabboxwidth=\skip206
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 212.
+(lastpage)             ! on input line 213.
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count176
@@ -1036,7 +1036,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 \makeMPintoPDFobject=\count181
 \everyMPtoPDFconversion=\toks35
 )
-LaTeX Info: Redefining \microtypecontext on input line 212.
+LaTeX Info: Redefining \microtypecontext on input line 213.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1058,7 +1058,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 229.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 230.
 
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1068,36 +1068,36 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 229.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 230.
 
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 229.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 230.
 
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 229
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 230
 .
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 229
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 230
 .
 
 ("E:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 229.
+(Font)              <12> on input line 230.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 229.
+(Font)              <8> on input line 230.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 229.
+(Font)              <6> on input line 230.
  [1
 
 {C:/Users/Dennis Teles/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
@@ -1106,41 +1106,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.238 
+l.239 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 
  []
 
 
-Overfull \hbox (16.6597pt too wide) in paragraph at lines 283--283
+Overfull \hbox (16.6597pt too wide) in paragraph at lines 284--284
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 283.
+(Font)              <10> on input line 284.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 283.
+(Font)              <7> on input line 284.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 283.
+(Font)              <5> on input line 284.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.331 
+l.332 
        [2] [3
 
 ] [4
@@ -1207,7 +1207,7 @@ a -[] de -[]$
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.577 \include{Capitulo_O_Projeto_CITAR}
+l.578 \include{Capitulo_O_Projeto_CITAR}
                                          <./imagens/inauguracaoCTI.jpg>]
 [17
 
@@ -1397,28 +1397,28 @@ ure.3.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 \include{Capitulo_Descricao_Atividades}
+l.595 \include{Capitulo_Descricao_Atividades}
                                               <./Imagens/controlador_DAC.jpg>]
 [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 \include{Capitulo_Descricao_Atividades}
+l.595 \include{Capitulo_Descricao_Atividades}
                                               <./Imagens/ISim_DAC_.pdf>]
 [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 \include{Capitulo_Descricao_Atividades}
+l.595 \include{Capitulo_Descricao_Atividades}
                                               <./Imagens/WriteCommandMCP4922.pn
 g>] [32pdfTeX warning (ext4): destination with the same identifier (name{figure
 .3.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.594 \include{Capitulo_Descricao_Atividades}
+l.595 \include{Capitulo_Descricao_Atividades}
                                               <./Imagens/teste_conversor_DAC.jp
 g>] [33
 
@@ -1437,43 +1437,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
 ) [39] [40
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 667.
+(hyperref)                removing `\uppercase' on input line 664.
 
 [41
 
-] [42] <Imagens/PlacaFilha_schematic.pdf, id=342, 597.23125pt x 845.1575pt>
+] [42] <Imagens/PlacaFilha_schematic.pdf, id=348, 597.23125pt x 845.1575pt>
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf used on input line 67
-4.
+1.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
  <use Imagens/PlacaFilha_schematic.pdf>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf used on input line 67
-4.
+1.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<Imagens/PlacaFilha_schematic.pdf, id=345, page=1, 597.23125pt x 845.1575pt>
+<Imagens/PlacaFilha_schematic.pdf, id=351, page=1, 597.23125pt x 845.1575pt>
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf, page 1>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf, page1 used on input 
-line 674.
+line 671.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf, page 1>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf, page1 used on input 
-line 674.
+line 671.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [43
 
@@ -1482,19 +1479,19 @@ File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf, page 1>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf, page1 used on input 
-line 674.
+line 671.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf, page 1>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf, page1 used on input 
-line 674.
+line 671.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: Imagens/PlacaFilha_schematic.pdf Graphic file (type pdf)
 
 <use Imagens/PlacaFilha_schematic.pdf, page 1>
 Package pdftex.def Info: Imagens/PlacaFilha_schematic.pdf, page1 used on input 
-line 674.
+line 671.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [44 <./Imagens/PlacaFilha_schematic.pdf>]
 No file RelatorioEstagioDennis.ind.
@@ -1504,25 +1501,29 @@ No file RelatorioEstagioDennis.ind.
 ] 
 AED: lastpage setting LastPage
 \tf@toc=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 724.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 724.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
 (RelatorioEstagioDennis.aux (Capitulo_Local_Atividades.aux)
 (Capitulo_O_Projeto_CITAR.aux) (Capitulo_Descricao_Atividades.aux)
 (Assinaturas.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 724.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 724.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
 Package rerunfilecheck Info: File `RelatorioEstagioDennis.brf' has not changed.
 
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 724.
+(rerunfilecheck)             Checksum: 7A776403F6ECAE840AEE10F039CAE148;62.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 721.
  )
-(\end occurred when \iftrue on line 722 was incomplete)
-(\end occurred when \ifnum on line 722 was incomplete) 
+(\end occurred when \iftrue on line 719 was incomplete)
+(\end occurred when \ifnum on line 719 was incomplete) 
 Here is how much of TeX's memory you used:
- 14746 strings out of 493673
- 221853 string characters out of 3141507
- 488616 words of memory out of 3000000
- 17602 multiletter control sequences out of 15000+200000
+ 14758 strings out of 493673
+ 222241 string characters out of 3141507
+ 488889 words of memory out of 3000000
+ 17613 multiletter control sequences out of 15000+200000
  93324 words of font info for 120 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,18n,40p,1020b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1540,9 +1541,9 @@ b><E:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><E:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><E:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><E:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on RelatorioEstagioDennis.pdf (47 pages, 6125809 bytes).
+Output written on RelatorioEstagioDennis.pdf (47 pages, 6128191 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  32043 words of extra memory for PDF output out of 35830 (max. 10000000)
 

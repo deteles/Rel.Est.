@@ -2,17 +2,15 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: RelatorioEstagioDenni
 A level-1 auxiliary file: Capitulo_Local_Atividades.aux
 A level-1 auxiliary file: Capitulo_O_Projeto_CITAR.aux
 A level-1 auxiliary file: Capitulo_Descricao_Atividades.aux
-I couldn't open database file abntex2-modelo-references.bib
----line 74 of file RelatorioEstagioDennis.aux
- : \bibdata{abntex2-options,abntex2-modelo-references
- :                                                   }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: Assinaturas.aux
 The style file: abntex2-alf.bst
 Database file #1: abntex2-options.bib
+Database file #2: Bibliografia.bib
+Warning--entry type for "InstitutodeEngenharia:Online" isn't style-file defined
+--line 1 of file Bibliografia.bib
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.5           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There was 1 error message)
+(There was 1 warning)
