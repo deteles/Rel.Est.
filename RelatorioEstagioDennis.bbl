@@ -5,10 +5,56 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem[Alunos do Instituto Mauá de Tecnologia iniciam construção de
+  satélite em miniatura para pesquisas espaciais 2015]{Alunos:Online}
+\abntrefinfo{Alunos\ldots}{ALUNOS\ldots}{2015}
+{ALUNOS do Instituto Mauá de Tecnologia iniciam construção de satélite em
+  miniatura para pesquisas espaciais. 2015.
+Dispon{\'\i}vel em:
+  \url{http://maua.br/imprensa/press-releases/528-alunos-do-imt-iniciam-construcao-de-satelite-em-miniatura-para-pesquisas-espaciais}.
+  Acesso em: 8 out. 2015.}
+
+\bibitem[CadSoft EAGLE PCB Design Software 2011]{Eagle:online}
+\abntrefinfo{CadSoft\ldots}{CADSOFT\ldots}{2011}
+{CADSOFT EAGLE PCB Design Software. 2011.
+Dispon{\'\i}vel em: \url{http://www.cadsoftusa.com/eagle-pcb-design-software/}.
+  Acesso em: 12 out. 2015.}
+
+\bibitem[Campus de São Caetano do Sul tem novo laboratório de Sistemas
+  Eletrônicos Embarcados 2010]{NovoLaboratorioNSEE:Online}
+\abntrefinfo{Campus\ldots}{CAMPUS\ldots}{2010}
+{CAMPUS de São Caetano do Sul tem novo laboratório de Sistemas Eletrônicos
+  Embarcados. 2010.
+Dispon{\'\i}vel em: \url{http://maua.br/imprensa/infomaua/29/texto/147}. Acesso
+  em: 8 out. 2015.}
+
+\bibitem[CTI Renato Archer inaugura projeto de tecnologia espacial na cidade de
+  Atibaia-SP. 2013]{CTIinaugura:Online}
+\abntrefinfo{CTI\ldots}{CTI\ldots}{2013}
+{CTI Renato Archer inaugura projeto de tecnologia espacial na cidade de
+  Atibaia-SP. 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.cenpra.gov.br/ultimas-noticias/264-cti-renato-archer-inaugura-projeto-de-tecnologia-espacial-na-cidade-de-atibaia-sp}.
+  Acesso em: 7 out. 2015.}
+
+\bibitem[ECSS Secretariat 2008]{SpaceWire:Manual}
+\abntrefinfo{ECSS Secretariat}{ECSS SECRETARIAT}{2008}
+{ECSS SECRETARIAT. \emph{ECSS-E-ST-50-12C}: Spacewire - links, nodes, routers
+  and networks.
+Noordwijk, 2008.}
+
+\bibitem[GR-PCI-XC5V LEON PCI Development board 2015]{Gaisler:Online}
+\abntrefinfo{GR-PCI-XC5V\ldots}{GR-PCI-XC5V\ldots}{2015}
+{GR-PCI-XC5V LEON PCI Development board: User manual. 2015.
+Dispon{\'\i}vel em:
+  \url{http://www.pender.ch/docs/GR-PCI-XC5V\_user\_manual.pdf}. Acesso em: 7
+  out. 2015.}
+
 \bibitem[Instituto Maua de Tecnologia
   S/Data\setbox0=\hbox{2003}]{InstitutodeEngenharia:Online}
 \abntrefinfo{Instituto\ldots}{INSTITUTO\ldots}{S/Data\setbox0=\hbox{2003}}
 {INSTITUTO Maua de Tecnologia. S/Data\setbox0=\hbox{2003}.
-Dispon{\'\i}vel em: \url{http://www.institutodeengenharia.org.br}.}
+Dispon{\'\i}vel em: \url{http://www.institutodeengenharia.org.br}. Acesso em: 8
+  out. 2015.}
 
 \end{thebibliography}

@@ -8,9 +8,19 @@ Database file #1: abntex2-options.bib
 Database file #2: Bibliografia.bib
 Warning--entry type for "InstitutodeEngenharia:Online" isn't style-file defined
 --line 1 of file Bibliografia.bib
+Warning--entry type for "Alunos:Online" isn't style-file defined
+--line 9 of file Bibliografia.bib
+Warning--entry type for "NovoLaboratorioNSEE:Online" isn't style-file defined
+--line 17 of file Bibliografia.bib
+Warning--entry type for "CTIinaugura:Online" isn't style-file defined
+--line 25 of file Bibliografia.bib
+Warning--entry type for "Gaisler:Online" isn't style-file defined
+--line 33 of file Bibliografia.bib
+Warning--entry type for "Eagle:Online" isn't style-file defined
+--line 42 of file Bibliografia.bib
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.5           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-(There was 1 warning)
+(There were 6 warnings)

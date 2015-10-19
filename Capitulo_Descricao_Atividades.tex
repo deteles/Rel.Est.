@@ -20,12 +20,12 @@ O projeto está no âmbito da meta 2 do projeto CITAR (ver figura \ref{Meta2}) e
 	\caption{Projeto CITAR - Meta 2.}
 	\includegraphics[scale = 0.55]{Imagens/ProjetoCitarMeta2}
 	
-	Fonte: site do IEAV Instituto de Estudos Avançados (2010, p. 9).\footnotemark[2]
+	Fonte: site do IEAV Instituto de Estudos Avançados (2010, p. 9).\footnotemark[3]
 	
 	\label{Meta2}
 \end{figure}
 
-\let\thefootnote\relax\footnotetext[2]{Figura retirada da URL \url{http://www.ieav.cta.br/peice2010/Apresentacoes\_PEICE\%202010\_pdf/2010-11-29/0102-Saulo.pdf}. Acesso em: 7 out. 2015.}
+\let\thefootnote\relax\footnotetext[3]{Figura retirada da URL \url{http://www.ieav.cta.br/peice2010/Apresentacoes\_PEICE\%202010\_pdf/2010-11-29/0102-Saulo.pdf}. Acesso em: 7 out. 2015.}
 
 \vfill
 
@@ -62,7 +62,7 @@ Inicialmente foi realizado um estudo sobre as propriedades do protocolo SpaceWir
 \section{Estudos, testes e simulações do codec SpaceWire}
 
 \let\thefootnote\svthefootnote
-O primeiro passo escolhido foi estudar sobre o protocolo de comunicação SpaceWire. Verificar seu funcionamento, os dados de entrada e de saída, a estrutura necessária para a sua aplicação, entre outros. O estudo se baseou inicialmente através da leitura do documento \textit{Space engineering: SpaceWire – Links, nodes, routers and networks}\footnote{Space engineering: SpaceWire – Links, nodes, routers and networks \url{http://www.ecss.nl/forums/ecss/_templates/default.htm?target=http://www.ecss.nl/forums/ecss/dispatch.cgi/standards/docProfile/100302/d20060808084754/No/t100302.htm}}, o qual descreve detalhadamente como devem ser construídos todos os níveis para sua implementação (nível das camadas física, de sinal, de caracteres, de pacotes de dados etc.). Procurou-se através deste estudo ter uma visão geral do protocolo, lembrando que o foco é a sua utilização e não a construção do mesmo.
+O primeiro passo escolhido foi estudar sobre o protocolo de comunicação SpaceWire. Verificar seu funcionamento, os dados de entrada e de saída, a estrutura necessária para a sua aplicação, entre outros. O estudo se baseou inicialmente através da leitura do documento \textit{Space engineering: SpaceWire – Links, nodes, routers and networks}\footciteref{SpaceWire:Manual}, o qual descreve detalhadamente como devem ser construídos todos os níveis para sua implementação (nível das camadas física, de sinal, de caracteres, de pacotes de dados etc.). Procurou-se através deste estudo ter uma visão geral do protocolo, lembrando que o foco é a sua utilização e não a construção do mesmo.
 
 O codec SpaceWire utilizado para estudo de teste e simulação foi desenvolvido por Jorge Luiz Nabarrete em seu trabalho de pós-doutorado no Instituto Mauá de Tecnologia em 2012.
 
@@ -133,9 +133,9 @@ Os conversores utilizados no projeto são: o analógico-digital MCP3204\footnote
 % ---
 \section{Construção do hardware (Placa Filha)}
 
-Foi construído um hardware, chamado Placa Filha (figura \ref{PlacaFilha}), contendo: oito leds, seis entradas/saídas digitais, um coversor A/D MCP3204 e um convesor D/A MCP4922. Esta placa foi projetada com o intuito de ser acoplada a placa de desenvolvimento GR-PCI-XC5V através de uma placa expansora de pinos GR-CPCI-TEST da Aeroflex Gaisler (figura \ref{cpci-test} e figura \ref{PlacaFilha_GRPCI}).
+Foi construído um hardware, chamado Placa Filha (figura \ref{PlacaFilha}), contendo: oito leds, seis entradas/saídas digitais, um coversor A/D MCP3204 e um convesor D/A MCP4922. Esta placa foi projetada com o intuito de ser acoplada a placa de desenvolvimento GR-PCI-XC5V\footciteref{Gaisler:Online} através de uma placa expansora de pinos GR-CPCI-TEST da Aeroflex Gaisler (figura \ref{cpci-test} e figura \ref{PlacaFilha_GRPCI}).
 
-A placa foi projetada utilizando o programa EAGLE PCB Design Software\footnote{Informações sobre o CadSoft EAGLE: \url{http://www.cadsoftusa.com/eagle-pcb-design-software/about-eagle/}. Acesso em 12 out. 2015.} e confeccionada em uma máquina LPKF disponibilizada pelo Instituto Mauá de Tecnologia. O diagrama esquemático da placa está em anexo no Apêndice A no final do relatório.
+A placa foi projetada utilizando o programa EAGLE PCB Design Software\footciteref{Eagle:online} e confeccionada em uma máquina LPKF disponibilizada pelo Instituto Mauá de Tecnologia. O diagrama esquemático da placa está em anexo no Apêndice A no final do relatório.
 
 Esta placa permite que testes práticos possam ser realizados e mostrar o real funcionamento do sistema.
 
